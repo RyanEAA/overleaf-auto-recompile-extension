@@ -3,6 +3,9 @@
   "name": "Auto Recompile",
   "version": "1.0",
   "description": "Automatically clicks recompile when editor changes",
+  "icons": {
+    "128": "reload-apple.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://www.overleaf.com/*"],
