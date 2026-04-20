@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Recompile",
+  "version": "1.0",
+  "description": "Automatically clicks recompile when editor changes",
+  "content_scripts": [
+    {
+      "matches": ["https://www.overleaf.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
